@@ -1,3 +1,4 @@
+/* reset */
 body,
 div,
 pre,
@@ -21,40 +22,41 @@ th,
 td,
 figure,
 figcaption {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 input,
 textarea {
-	margin: 0;
-	font-size: 100%;
+  margin: 0;
+  font-size: 100%;
 }
 
 label {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
-	font-size: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 100%;
 }
+
 th,
 td {
-	list-style: none;
+  list-style: none;
 }
 
 fieldset,
 img {
-	border: 0;
+  border: 0;
 }
 
 img {
-	max-width: 100%;
-	width: 100%;
-	height: auto;
-	vertical-align: top;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  vertical-align: top;
 }
 
 address,
@@ -65,18 +67,18 @@ dfn,
 em,
 th,
 var {
-	font-style: normal;
-	font-weight: normal;
+  font-style: normal;
+  font-weight: normal;
 }
 
 ol,
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 caption,
 th {
-	text-align: left;
+  text-align: left;
 }
 
 h1,
@@ -85,49 +87,52 @@ h3,
 h4,
 h5,
 h6 {
-	font-size: 100%;
-	font-weight: normal;
+  font-size: 100%;
+  font-weight: normal;
 }
 
 q:after,
 q:before {
-	content: '';
+  content: '';
 }
 
 a,
 input {
-	outline: none;
-	color: inherit;
+  outline: none;
+  color: inherit;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 input,
 textarea {
-	border-radius: 0;
+  border-radius: 0;
 }
+
 input[type="button"],
 input[type="submit"] {
-	-webkit-appearance: none;
-	background: none;
-	border: none;
-	padding: 0;
-	cursor: pointer;
+  -webkit-appearance: none;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
 }
 
 abbr,
 acronym {
-	border: 0;
+  border: 0;
 }
 
 i {
-	font-style: normal;
+  font-style: normal;
 }
+
 main,
 section,
 article,
 time {
   display: block;
 }
+/* /reset */

@@ -1,134 +1,133 @@
-.index {
-  .intro {
-    @include mq(sp) {
-      padding-top: 28%;
-    }
-    @include mq(tb) {
-      padding-top: 180px;
-    }
-    @include mq(pc) {
-      padding-top: 180px;
-    }
-    .p_01 {
+/* layout */
+.content {
+  @include mq(sp) {
+    width: 100%;
+  }
+  @include mq(tb) {
+    width: 100%;
+  }
+  @include mq(pc) {
+    margin: 0 auto;
+    border-right: 1px dotted $c-grey;
+    border-left: 1px dotted $c-grey;
+    width: 1200px;
+  }
+}
+
+#group {
+  .heading {
+    border-bottom: 1px dotted $c-black;
+    font-size: 0;
+    letter-spacing: 0;
+    > * {
       @include mq(sp) {
-        margin-top: 12.6%;
+        width: 100%;
       }
       @include mq(tb) {
-        margin-top: 60px;
+        width: 100%;
       }
       @include mq(pc) {
-        margin-top: 60px;
+        vertical-align: middle;
+        display: inline-block;
+        width: 50%;
       }
     }
-    .div_01 {
+    .l_box {
       @include mq(sp) {
-        margin: 20% auto 0;
+        padding: 2%;
       }
       @include mq(tb) {
-        margin: 68px auto 0;
+        padding: 2%;
       }
       @include mq(pc) {
-        margin: 68px auto 0;
+        padding-left: 90px;
+      }
+      .p_01 {
+        margin-top: 2.6em;
       }
     }
   }
-  .summary {
+  .about {
+    border-bottom: 1px dotted $c-grey;
     @include mq(sp) {
-      padding-top: 28%;
+      padding: 16% 4%;
     }
     @include mq(tb) {
-      padding-top: 180px;
+      padding: 70px 4%;
     }
     @include mq(pc) {
-      padding-top: 180px;
+      padding: 70px 0;
     }
-    .table_01 {
+    .l_2col {
+      text-align: center;
       @include mq(sp) {
-        margin: 13.7% auto 0;
+        margin-top: 12%;
       }
       @include mq(tb) {
-        margin: 60px auto 0;
+        margin-top: 70px;
       }
       @include mq(pc) {
-        margin: 60px auto 0;
+        margin-top: 70px;
+      }
+      .figure_01 {
+        @include mq(sp) {
+          width: 100%;
+        }
+        @include mq(tb) {
+          width: 100%;
+        }
+        @include mq(pc) {
+          margin-right: 42px;
+          width: 370px;
+          vertical-align: top;
+          display: inline-block;
+        }
+      }
+      .l_box {
+        @include mq(sp) {
+          margin-top: 6%;
+          width: 100%;
+        }
+        @include mq(tb) {
+          margin-top: 6%;
+          width: 100%;
+        }
+        @include mq(pc) {
+          vertical-align: top;
+          display: inline-block;
+          width: 420px;
+        }
       }
     }
   }
-  .entry {
+  .other {
     @include mq(sp) {
-      padding-top: 28%;
+      padding: 16% 4%;
     }
     @include mq(tb) {
-      padding-top: 180px;
+      padding: 70px 4%;
     }
     @include mq(pc) {
-      padding-top: 180px;
+      padding: 70px 0;
     }
     .p_01 {
+      margin-top: 2em;
+    }
+    .dl_01 {
       @include mq(sp) {
-        margin-top: 13.7%;
+        margin-top: 12%;
+        width: 100%;
       }
       @include mq(tb) {
-        margin-top: 86px;
+        margin-top: 66px;
+        width: 100%;
       }
       @include mq(pc) {
-        margin-top: 86px;
-      }
-    }
-    .div_01 {
-      @include mq(sp) {
-        margin: 12.6% auto 0;
-      }
-      @include mq(tb) {
-        margin: 60px auto 0;
-      }
-      @include mq(pc) {
-        margin: 60px auto 0;
-      }
-    }
-  }
-  .contact {
-    @include mq(sp) {
-      padding-top: 23%;
-    }
-    @include mq(tb) {
-      padding-top: 96px;
-    }
-    @include mq(pc) {
-      padding-top: 96px;
-    }
-    .p_01 {
-      @include mq(sp) {
-        margin-top: 10%;
-      }
-      @include mq(tb) {
-        margin-top: 30px;
-      }
-      @include mq(pc) {
-        margin-top: 30px;
-      }
-    }
-    .address_01 {
-      @include mq(sp) {
-        margin-top: 10%;
-      }
-      @include mq(tb) {
-        margin-top: 30px;
-      }
-      @include mq(pc) {
-        margin-top: 30px;
-      }
-    }
-    .div_01 {
-      @include mq(sp) {
-        margin: 12.6% auto 0;
-      }
-      @include mq(tb) {
-        margin: 60px auto 0;
-      }
-      @include mq(pc) {
-        margin: 60px auto 0;
+        margin: 66px auto;
+        width: 834px;
       }
     }
   }
 }
+
+/* /layout */
